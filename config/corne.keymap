@@ -94,7 +94,7 @@
 
             bindings = <
 &kp ESC    &kp F    &kp R  &kp D     &kp P  &kp V                 &kp Q    &kp J            &kp U     &kp O     &kp Y      &kp DELETE
-&kp LCTRL  &lt 3 S  &kp N  &kp T     &kp C  &kp B                 &kp DOT  &kp H            &kp E     &kp A     &lt 4 I    &kp BSPC
+&kp LCTRL  &lt 3 S  &kp N  &kp T     &kp C  &kp B                 &kp DOT  &kp H            &kp E     &kp A     &kp I      &kp BSPC
 &kp LSHFT  &kp Z    &kp X  &kp K     &kp G  &kp W                 &kp M    &kp L            &kp SEMI  &kp APOS  &kp COMMA  &kp ESC
                            &kp LGUI  &mo 1  &mt LEFT_ALT SPACE    &kp RET  &lt 2 BACKSPACE  &kp RALT
             >;
@@ -136,15 +136,6 @@
 &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
                           &trans        &trans     &trans    &trans  &trans  &trans
-            >;
-        };
-
-        R.Pinky {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
